@@ -28,11 +28,11 @@ var users = [
     bio: 'Annakickarse, the outgoing rebel, is an artistic phenomenon from New York City who has worked her way from nothing to something.  I am skin, bones, blood, flesh & energy. I am and I believe that is all I could truly know about myself for certain. DJ from Webster Hall NYC & resident DJ at QuietEvents.'
   },
   {
-    name: 'Patita Y.',
-    location: 'Sao Paulo',
-    review: 'Sociaholic, always searching for awesome restaurants, terraces, bars, clubs, dj sets, and parties to go to.',
-    image: 'patita.jpg',
-    bio: 'Sociaholic, always searching for awesome restaurants, terraces, bars, clubs, dj sets and parties to go to. Been travelling a lot and currently aspiring to become the Rough Guide to São Paulo myself. Favourite bar in São Paulo: Bebo Sim. No Tinder\'ing here please.'
+    name: 'Brent C.',
+    location: 'Melbourne',
+    review: 'Brent is Melbourne\'s Super Hero... I mean Local. Soon he\'ll have the keys to the city or at least have a statue built in his honor. Brent knows how to have a good laugh and not take things too seriously. He\'s very welcoming to all - and gives up a lot of his time to others.',
+    image: 'brent.jpg',
+    bio: 'I love to show new people some of Melbourne\'s best rooftop drinking spots, hidden bars and nightclubs...Just ask!'
   },
   {
     name: 'François L.',
@@ -49,17 +49,10 @@ var users = [
     bio: '🔘 easy going guy <br>🔘 social <br>🔘 party animal <br>🔘 crazy <br>🔘 spontaneous <br>Bartender at Regular &Jack 🍺 <br>I love good food & drinks 🍔🌭🍕🍝🌮🌯🍣🍰🍦🍫🍩🍪🍺🍹🍸🍼 & party 🎉🎊 Always up for something. If not I\'m probably working. 💪🏽 In that case you can always come over and have some beers💁🏼 Don\'t be afraid to chat me up🙌🏼 See you soon 🙋🏼'
   },
   {
-    name: 'Jamie H.',
-    location: 'Brussels',
-    review: '',
-    image: 'jamie.jpg',
-    bio: 'I\'m pretty easy going and up for most things. If you want to know anything about me, ask away. I\'m currently living in Belgium but have previously lived in Amsterdam, London and Pisa. I\'m also a big fan of this app hehe :D'
-  },
-  {
-    name: 'Brent C.',
-    location: 'Melbourne',
-    review: 'Brent is Melbourne\'s Super Hero... I mean Local. Soon he\'ll have the keys to the city or at least have a statue built in his honor. Brent knows how to have a good laugh and not take things too seriously. He\'s very welcoming to all - and gives up a lot of his time to others.',
-    image: 'brent.jpg',
-    bio: 'I love to show new people some of Melbourne\'s best rooftop drinking spots, hidden bars and nightclubs...Just ask!'
+    name: 'Patita Y.',
+    location: 'Sao Paulo',
+    review: 'Sociaholic, always searching for awesome restaurants, terraces, bars, clubs, dj sets, and parties to go to.',
+    image: 'patita.jpg',
+    bio: 'Sociaholic, always searching for awesome restaurants, terraces, bars, clubs, dj sets and parties to go to. Been travelling a lot and currently aspiring to become the Rough Guide to São Paulo myself. Favourite bar in São Paulo: Bebo Sim. No Tinder\'ing here please.'
   }
 ]

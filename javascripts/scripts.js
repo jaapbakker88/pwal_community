@@ -58,7 +58,7 @@ function getProfile (index) {
 }
 
 var $profiles = $(listProfiles(users))
-$('#profiles .container .row').append($profiles)
+$('#profiles .container .row').prepend($profiles)
 
 //  ///////////////////////////////////////////////
 //  /////////lightbox for profile of person////////
