@@ -47,7 +47,7 @@ function hasScrolled () {
 function listProfiles (data) {
   var html = ''
   for (var i = 0; i < data.length; i += 1) {
-    html += '<div class="col-sm-4"><div class="profile"><div class="img"><div class="city">' + data[i].location + '</div><img src="images/users/' + data[i].image + '" class="img-responsive"/><div class="overlay"><p>' + data[i].review + '</p></div><div class="name">Meet ' + data[i].name + '</div></div></div></div>'
+    html += '<div class="col-sm-4"><div class="profile"><div class="img"><div class="city">' + data[i].location + '</div><img src="images/users/' + data[i].image + '" class="img-responsive"/><div class="overlay"><p>"' + data[i].review + '"</p></div><div class="name">Meet ' + data[i].name + '</div></div></div></div>'
   }
   return html
 }
