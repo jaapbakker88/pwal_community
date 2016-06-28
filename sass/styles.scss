@@ -58,8 +58,8 @@
     }
 }
 
-body{font-family: 'Gotham', sans-serif; background-color: #222222; padding-top: 55px;}
-body.community{background-color: #f9f9f9;}
+body{font-family: 'Gotham', sans-serif; background-color: #fff; padding-top: 55px;}
+body.community{background-color: #fff;}
 
 header {
     z-index: 1000;
@@ -311,5 +311,32 @@ h5 {
   border: 3px dashed #e6e6e6;
   .overlay {
     background: transparent;
+  }
+}
+
+footer {
+  height: 50px;
+  margin-bottom: 50px;
+  padding-top: 15px;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    margin-top: 5px;
+    li {
+
+      line-height: 1.5;
+      padding: 15px;
+      display: inline;
+    }
+  }
+}
+
+header a {padding-top: 12px; padding-bottom: 12px;}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  footer ul li {
+    display: block;
   }
 }

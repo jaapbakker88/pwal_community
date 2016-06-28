@@ -8813,13 +8813,13 @@ button.close {
 /* line 61, ../sass/styles.scss */
 body {
   font-family: 'Gotham', sans-serif;
-  background-color: #222222;
+  background-color: #fff;
   padding-top: 55px;
 }
 
 /* line 62, ../sass/styles.scss */
 body.community {
-  background-color: #f9f9f9;
+  background-color: #fff;
 }
 
 /* line 64, ../sass/styles.scss */
@@ -9107,5 +9107,38 @@ h5 {
 }
 /* line 312, ../sass/styles.scss */
 .you .img .overlay {
-  background: none;
+  background: transparent;
+}
+
+/* line 317, ../sass/styles.scss */
+footer {
+  height: 50px;
+  margin-bottom: 50px;
+  padding-top: 15px;
+}
+/* line 322, ../sass/styles.scss */
+footer ul {
+  list-style: none;
+  margin: 0;
+  margin-top: 5px;
+}
+/* line 326, ../sass/styles.scss */
+footer ul li {
+  line-height: 1.5;
+  padding: 15px;
+  display: inline;
+}
+
+/* line 335, ../sass/styles.scss */
+header a {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /* line 339, ../sass/styles.scss */
+  footer ul li {
+    display: block;
+  }
 }
