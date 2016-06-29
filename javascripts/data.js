@@ -4,14 +4,16 @@ var users = [
     location: 'Stuttgart',
     review: 'Cool, chilled, friendly, well travelled & interesting dude who seems to get along with everyone. Recomend meeting him for a beer or night out in Amsterdam or his native Stuttgart.',
     image: 'florian.jpg',
-    bio: 'German Student living in Stuttgart.Keeping it awesome Backpacking Vietnam for 6 weeks. Superlocal in Amsterdam, Kuala Lumpur and Stuttgart, Germany. Message me for the Hotspots.'
+    bio: 'German Student living in Stuttgart.Keeping it awesome Backpacking Vietnam for 6 weeks. Superlocal in Amsterdam, Kuala Lumpur and Stuttgart, Germany. Message me for the Hotspots.',
+    story: 'http://blog.partywithalocal.com/2016/01/04/meeting-party-friends-intercontinental-partying-from-amsterdam-to-bangkok/'
   },
   {
     name: 'Linda S.',
     location: 'Amsterdam',
     review: 'Linda, Linda, Linda - where to start? Definitely one of the most active locals, she always has a way of finding the right place at the right time and manages to make small fun become big fun. With an absolutely positive and infectious personality, Linda is well worth a message.',
     image: 'linda.jpg',
-    bio: 'Amsterdam local for 5 years now, born in Riga. I love to meet genuine & twisted people, discover inspiring places, soulful music and arts. Often in for a chat, drinks, dancing, sniffing up culture, whatever. Feel free to hit me up!'
+    bio: 'Amsterdam local for 5 years now, born in Riga. I love to meet genuine & twisted people, discover inspiring places, soulful music and arts. Often in for a chat, drinks, dancing, sniffing up culture, whatever. Feel free to hit me up!',
+    story: 'http://blog.partywithalocal.com/2016/03/10/story-amsterdam-party-night/'
   },
   {
     name: 'Baiba V.',

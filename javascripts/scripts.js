@@ -74,9 +74,14 @@ $('#profiles .img').click(function ( event ) {
   var index = $('#profiles .img').index(this)
   // store the user in a variable
   var user = getProfile(index)
+  if (user.story !== undefined) {
+    var story = '<p><a href="' + user.story + '" target="_blank">Read one of ' + user.name + '\'s stories on our blog</a></p>'
+  } else {
+    var story = '';
+  }
 
   // create profile and append profile in overlay
-  var $profile = $('<div class="container"><div class="row"><div class="col-sm-8 col-sm-offset-2"><div class="featured"><div class="row"><h2 class="text-center introducing">Introducing ' + user.name + '</h2><div class="col-sm-4 profile-image"><img src="images/users/' + user.image + '" class="img-responsive img-circle"></div><div class="col-sm-8 profile-content"><p>' + user.bio + '</p><h3>Download the app and chat directly to ' + user.name + '</h3><div class="btn-group" data-toggle="buttons-checkbox"><a href="https://itunes.apple.com/app/party-with-a-local/id562560874" target="_blank" class="btn btn-primary btn-lg"><i class="fa fa-apple"></i> App Store</a><a  href="https://play.google.com/store/apps/details?id=com.pwal" target="_blank" class="btn btn-primary btn-lg"><i class="fa fa-play"></i> Play Store</a></div> </div></div></div></div><!--  Profile COL-SM-8--></div></div>')
+  var $profile = $('<div class="container"><div class="row"><div class="col-sm-8 col-sm-offset-2"><div class="featured"><div class="row"><h2 class="text-center introducing">Introducing ' + user.name + '</h2><div class="col-sm-4 profile-image"><img src="images/users/' + user.image + '" class="img-responsive img-circle"></div><div class="col-sm-8 profile-content">' + user.bio + '<p>' + story + '</p><h3>Download the app and chat directly to ' + user.name + '</h3><div class="btn-group" data-toggle="buttons-checkbox"><a href="https://itunes.apple.com/app/party-with-a-local/id562560874" target="_blank" class="btn btn-primary btn-lg"><i class="fa fa-apple"></i> App Store</a><a  href="https://play.google.com/store/apps/details?id=com.pwal" target="_blank" class="btn btn-primary btn-lg"><i class="fa fa-play"></i> Play Store</a></div> </div></div></div></div><!--  Profile COL-SM-8--></div></div>')
   $('.lightbox').append($profile)
   // show overlay(lighbox) and set the height to the documents height
   $('.lightbox').css('height', $(document).height())
