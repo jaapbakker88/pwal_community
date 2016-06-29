@@ -42,7 +42,7 @@
     }
 }
 
-body{font-family: 'Gotham', sans-serif; background-color: #fff; padding-top: 55px;}
+body{font-family: 'Gotham', 'Helvetica Neue', Helvetica, Arial, sans-serif; background-color: #fff; padding-top: 55px;}
 body.community{background-color: #fff;}
 
 header {
@@ -172,7 +172,6 @@ h5 {
 }
 
 .profile {
-  font-family: 'Roboto';
   position: relative;
   width: 100%;
   margin: 15px auto;

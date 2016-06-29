@@ -8798,7 +8798,7 @@ button.close {
 }
 /* line 45, ../sass/styles.scss */
 body {
-  font-family: 'Gotham', sans-serif;
+  font-family: 'Gotham', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background-color: #fff;
   padding-top: 55px;
 }
@@ -8948,13 +8948,12 @@ h5 {
 
 /* line 174, ../sass/styles.scss */
 .profile {
-  font-family: 'Roboto';
   position: relative;
   width: 100%;
   margin: 15px auto;
   background: transparent;
 }
-/* line 181, ../sass/styles.scss */
+/* line 180, ../sass/styles.scss */
 .profile .city {
   z-index: 100;
   font-size: 1.2em;
@@ -8965,7 +8964,7 @@ h5 {
   left: 0;
   top: 0;
 }
-/* line 191, ../sass/styles.scss */
+/* line 190, ../sass/styles.scss */
 .profile .name {
   z-index: 100;
   position: absolute;
@@ -8981,7 +8980,7 @@ h5 {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, transparent 100%);
 }
 
-/* line 208, ../sass/styles.scss */
+/* line 207, ../sass/styles.scss */
 .img {
   position: relative;
   display: inline-block;
@@ -8989,7 +8988,7 @@ h5 {
   cursor: pointer;
 }
 
-/* line 214, ../sass/styles.scss */
+/* line 213, ../sass/styles.scss */
 .overlay {
   position: absolute;
   top: 0;
@@ -9001,12 +9000,12 @@ h5 {
   background: rgba(49, 186, 238, 0);
   text-align: center;
 }
-/* line 225, ../sass/styles.scss */
+/* line 224, ../sass/styles.scss */
 .overlay p {
   color: white;
   padding: 6em 2em;
 }
-/* line 230, ../sass/styles.scss */
+/* line 229, ../sass/styles.scss */
 .overlay .city {
   font-size: 1.2em;
   padding: 0.5em;
@@ -9016,7 +9015,7 @@ h5 {
   left: 0;
   top: 0;
 }
-/* line 239, ../sass/styles.scss */
+/* line 238, ../sass/styles.scss */
 .overlay .name {
   position: absolute;
   bottom: 0;
@@ -9028,20 +9027,20 @@ h5 {
   /* Rectangle 1: */
 }
 
-/* line 253, ../sass/styles.scss */
+/* line 252, ../sass/styles.scss */
 .img:hover .overlay,
 .overlay:hover {
   height: 100%;
   background: rgba(49, 186, 238, 0.5);
 }
 
-/* line 258, ../sass/styles.scss */
+/* line 257, ../sass/styles.scss */
 .img > img {
   display: block;
   /* Prevent inline gap under image*/
 }
 
-/* line 262, ../sass/styles.scss */
+/* line 261, ../sass/styles.scss */
 .lightbox {
   position: fixed;
   top: 0;
@@ -9054,27 +9053,27 @@ h5 {
   display: none;
   overflow-y: scroll;
 }
-/* line 269, ../sass/styles.scss */
+/* line 268, ../sass/styles.scss */
 .lightbox .container {
   position: static;
 }
 
-/* line 274, ../sass/styles.scss */
+/* line 273, ../sass/styles.scss */
 .noscroll {
   overflow: hidden;
 }
 
-/* line 276, ../sass/styles.scss */
+/* line 275, ../sass/styles.scss */
 [aria-hidden="true"] {
   display: none;
 }
 
-/* line 277, ../sass/styles.scss */
+/* line 276, ../sass/styles.scss */
 [aria-hidden="false"] {
   display: block;
 }
 
-/* line 285, ../sass/styles.scss */
+/* line 284, ../sass/styles.scss */
 .btn-group {
   width: 100%;
   margin: 0 auto;
@@ -9082,40 +9081,40 @@ h5 {
   display: inline-block;
 }
 
-/* line 292, ../sass/styles.scss */
+/* line 291, ../sass/styles.scss */
 .btn {
   width: 50%;
 }
 
-/* line 294, ../sass/styles.scss */
+/* line 293, ../sass/styles.scss */
 .you .img {
   border: 3px dashed #e6e6e6;
 }
-/* line 296, ../sass/styles.scss */
+/* line 295, ../sass/styles.scss */
 .you .img .overlay {
   background: transparent;
 }
 
-/* line 301, ../sass/styles.scss */
+/* line 300, ../sass/styles.scss */
 footer {
   height: 50px;
   margin-bottom: 50px;
   padding-top: 15px;
 }
-/* line 306, ../sass/styles.scss */
+/* line 305, ../sass/styles.scss */
 footer ul {
   list-style: none;
   margin: 0;
   margin-top: 5px;
 }
-/* line 310, ../sass/styles.scss */
+/* line 309, ../sass/styles.scss */
 footer ul li {
   line-height: 1.5;
   padding: 15px;
   display: inline;
 }
 
-/* line 319, ../sass/styles.scss */
+/* line 318, ../sass/styles.scss */
 header a {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -9123,7 +9122,7 @@ header a {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  /* line 323, ../sass/styles.scss */
+  /* line 322, ../sass/styles.scss */
   footer ul li {
     display: block;
   }
