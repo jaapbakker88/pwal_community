@@ -8923,11 +8923,12 @@ h5 {
   background-image: -webkit-linear-gradient(#3BC9F1 0%, #199AE4 100%);
   background-image: -o-linear-gradient(#3BC9F1 0%, #199AE4 100%);
   background-image: linear-gradient(#3BC9F1 0%, #199AE4 100%);
+  background-image: -moz-linear-gradient(top, #3bc9f1 0%, #199ae4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* line 157, ../sass/styles.scss */
+/* line 158, ../sass/styles.scss */
 #profiles {
   padding-top: 75px;
   padding-bottom: 75px;
@@ -8935,25 +8936,14 @@ h5 {
   background-color: #fff;
 }
 
-/* line 164, ../sass/styles.scss */
-.lead-generator {
-  height: 125px;
-  width: 100%;
-  margin-bottom: 200px;
-  /* Rectangle 20: */
-  background-image: -webkit-linear-gradient(#3BC9F1 0%, #199AE4 100%);
-  background-image: -o-linear-gradient(#3BC9F1 0%, #199AE4 100%);
-  background-image: linear-gradient(#3BC9F1 0%, #199AE4 100%);
-}
-
-/* line 174, ../sass/styles.scss */
+/* line 165, ../sass/styles.scss */
 .profile {
   position: relative;
   width: 100%;
   margin: 15px auto;
   background: transparent;
 }
-/* line 180, ../sass/styles.scss */
+/* line 171, ../sass/styles.scss */
 .profile .city {
   z-index: 100;
   font-size: 1.2em;
@@ -8964,7 +8954,7 @@ h5 {
   left: 0;
   top: 0;
 }
-/* line 190, ../sass/styles.scss */
+/* line 181, ../sass/styles.scss */
 .profile .name {
   z-index: 100;
   position: absolute;
@@ -8980,7 +8970,7 @@ h5 {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, transparent 100%);
 }
 
-/* line 207, ../sass/styles.scss */
+/* line 198, ../sass/styles.scss */
 .img {
   position: relative;
   display: inline-block;
@@ -8988,7 +8978,7 @@ h5 {
   cursor: pointer;
 }
 
-/* line 213, ../sass/styles.scss */
+/* line 204, ../sass/styles.scss */
 .overlay {
   position: absolute;
   top: 0;
@@ -9000,12 +8990,12 @@ h5 {
   background: rgba(49, 186, 238, 0);
   text-align: center;
 }
-/* line 224, ../sass/styles.scss */
+/* line 215, ../sass/styles.scss */
 .overlay p {
   color: white;
   padding: 6em 2em;
 }
-/* line 229, ../sass/styles.scss */
+/* line 220, ../sass/styles.scss */
 .overlay .city {
   font-size: 1.2em;
   padding: 0.5em;
@@ -9015,7 +9005,7 @@ h5 {
   left: 0;
   top: 0;
 }
-/* line 238, ../sass/styles.scss */
+/* line 229, ../sass/styles.scss */
 .overlay .name {
   position: absolute;
   bottom: 0;
@@ -9027,20 +9017,20 @@ h5 {
   /* Rectangle 1: */
 }
 
-/* line 252, ../sass/styles.scss */
+/* line 243, ../sass/styles.scss */
 .img:hover .overlay,
 .overlay:hover {
   height: 100%;
   background: rgba(49, 186, 238, 0.5);
 }
 
-/* line 257, ../sass/styles.scss */
+/* line 248, ../sass/styles.scss */
 .img > img {
   display: block;
   /* Prevent inline gap under image*/
 }
 
-/* line 261, ../sass/styles.scss */
+/* line 252, ../sass/styles.scss */
 .lightbox {
   position: fixed;
   top: 0;
@@ -9053,27 +9043,27 @@ h5 {
   display: none;
   overflow-y: scroll;
 }
-/* line 268, ../sass/styles.scss */
+/* line 259, ../sass/styles.scss */
 .lightbox .container {
   position: static;
 }
 
-/* line 273, ../sass/styles.scss */
+/* line 264, ../sass/styles.scss */
 .noscroll {
   overflow: hidden;
 }
 
-/* line 275, ../sass/styles.scss */
+/* line 266, ../sass/styles.scss */
 [aria-hidden="true"] {
   display: none;
 }
 
-/* line 276, ../sass/styles.scss */
+/* line 267, ../sass/styles.scss */
 [aria-hidden="false"] {
   display: block;
 }
 
-/* line 284, ../sass/styles.scss */
+/* line 275, ../sass/styles.scss */
 .btn-group {
   width: 100%;
   margin: 0 auto;
@@ -9081,40 +9071,40 @@ h5 {
   display: inline-block;
 }
 
-/* line 291, ../sass/styles.scss */
+/* line 282, ../sass/styles.scss */
 .btn {
   width: 50%;
 }
 
-/* line 293, ../sass/styles.scss */
+/* line 284, ../sass/styles.scss */
 .you .img {
   border: 3px dashed #e6e6e6;
 }
-/* line 295, ../sass/styles.scss */
+/* line 286, ../sass/styles.scss */
 .you .img .overlay {
   background: transparent;
 }
 
-/* line 300, ../sass/styles.scss */
+/* line 291, ../sass/styles.scss */
 footer {
   height: 50px;
   margin-bottom: 50px;
   padding-top: 15px;
 }
-/* line 305, ../sass/styles.scss */
+/* line 296, ../sass/styles.scss */
 footer ul {
   list-style: none;
   margin: 0;
   margin-top: 5px;
 }
-/* line 309, ../sass/styles.scss */
+/* line 300, ../sass/styles.scss */
 footer ul li {
   line-height: 1.5;
   padding: 15px;
   display: inline;
 }
 
-/* line 318, ../sass/styles.scss */
+/* line 309, ../sass/styles.scss */
 header a {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -9122,7 +9112,7 @@ header a {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  /* line 322, ../sass/styles.scss */
+  /* line 313, ../sass/styles.scss */
   footer ul li {
     display: block;
   }
