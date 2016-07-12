@@ -23,11 +23,25 @@ var users = [
     bio: 'Hey Pwalsters, Originally from Riga, Latvia but currently living in Amsterdam! Live traveling, have lived in Berlin, Cambridge and Edinburgh before moving here. I like meeting new people, so message me if you\'re in town. Toodles'
   },
   {
+    name: 'Hazelina O.',
+    location: 'Singapore',
+    review: '',
+    image: 'hazel.jpg',
+    bio: 'Deep house and Techno all night long, but also good old wine and banter. London, Amsterdam, Barcelona & Berlin in August for work and some partying. Let\'s prance?'
+  },
+  {
     name: 'Anna C.',
     location: 'New York',
     review: 'Anna is super open and very nice. We went to a quiet party where she was the DJ. She got me in for free and introduced me to her friends. 100% recommendable!',
     image: 'anna.jpg',
     bio: 'Annakickarse, the outgoing rebel, is an artistic phenomenon from New York City who has worked her way from nothing to something.  I am skin, bones, blood, flesh & energy. I am and I believe that is all I could truly know about myself for certain. DJ from Webster Hall NYC & resident DJ at QuietEvents.'
+  },
+  {
+    name: 'Sidñey O.',
+    location: 'New York',
+    review: '',
+    image: 'sidney.jpg',
+    bio: 'Lived in and around New York since \'91. Have found a couple of semi-underground things that interest me, and might interest an intrepid traveler or stifled local. Burning Man parties, urban spelunking (aka urban exploration), society ball, guerrilla balls, skating (roller and ice), dancing (Latin, Swing, and freeform), concept and performance Art!'
   },
   {
     name: 'Brent C.',
@@ -42,6 +56,13 @@ var users = [
     review: 'Francois is the coolest guy on earth! So much fun and always down to party! He showed me and some friends the best bars in Lille - he is your guy if you want a good night out!',
     image: 'francois.jpg',
     bio: 'I live in the Center of Lille. Always ready to meet new persons and to help to discover the city. My buddies and I will be glad to have a walk/to discuss/to have a drink/to party with you !!! ;-)'
+  },
+  {
+    name: 'Adam U.',
+    location: 'Amsterdam',
+    review: '',
+    image: 'adam.jpg',
+    bio: 'Australian from Bondi Beach, recently relocated to Amsterdam.'
   },
   {
     name: 'Alex Z.',
