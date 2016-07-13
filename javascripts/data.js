@@ -25,7 +25,7 @@ var users = [
   {
     name: 'Baiba V.',
     location: 'Amsterdam',
-    review: ' Always up for a good time and lots of laughs. Whether it\'s a chilled brunch, some outdoor activities or a full on night out, Baiba is always so much fun. She has a great sense of direction too and knows the city. Good to have on your team.',
+    review: 'Always up for a good time and lots of laughs. Whether it\'s a chilled brunch, some outdoor activities or a full on night out, Baiba is always so much fun. She has a great sense of direction too and knows the city. Good to have on your team.',
     image: 'baiba.jpg',
     bio: 'Hey Pwalsters, Originally from Riga, Latvia but currently living in Amsterdam! Live traveling, have lived in Berlin, Cambridge and Edinburgh before moving here. I like meeting new people, so message me if you\'re in town. Toodles'
   },
@@ -76,6 +76,6 @@ var users = [
     location: 'Amsterdam',
     review: 'Alex is a super fun & cool guy who knows how to party! Been out partying & getting some drinks at a few bars with him around town a couple of times, I definitely recommend hanging out with Alex, if you want to have an awesome time!! Plus he works at one of the best bars in Amsterdam!',
     image: 'alex.jpg',
-    bio: '🔘 easy going guy <br>🔘 social <br>🔘 party animal <br>🔘 crazy <br>🔘 spontaneous <br>Bartender at Regular &Jack 🍺 <br>I love good food & drinks 🍔🌭🍕🍝🌮🌯🍣🍰🍦🍫🍩🍪🍺🍹🍸🍼 & party 🎉🎊 Always up for something. If not I\'m probably working. 💪🏽 In that case you can always come over and have some beers💁🏼 Don\'t be afraid to chat me up🙌🏼 See you soon 🙋🏼'
+    bio: 'I love good food & drinks 🍔🌭🍕🍝🌮🌯🍣🍰🍦🍫🍩🍪🍺🍹🍸🍼 & party 🎉🎊 Always up for something. If not I\'m probably working. 💪🏽 In that case you can always come over and have some beers💁🏼 Don\'t be afraid to chat me up🙌🏼 See you soon 🙋🏼'
   }
 ]
