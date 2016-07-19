@@ -76,7 +76,7 @@ $('#profiles .img').click(function ( event ) {
   // store the user in a variable
   var user = getProfile(index)
   if (user.story !== undefined) {
-    var story = '<p><a href="' + user.story + '" target="_blank">Read one of ' + user.name + '\'s stories on our blog</a></p>'
+    var story = '<p><a href="' + user.story + '" target="_blank">Read a story about ' + user.name + ' on our blog</a></p>'
   } else {
     var story = '';
   }
